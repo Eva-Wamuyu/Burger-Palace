@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins",sans-serif;
+}
+#div_One{
+    
+}
+
+h2{
+    text-decoration: underline orange 7.5px;
+    text-align: center;
+
+}
+#menu{
+    color: #F6B400;
+}
+
+
+
+
+
+
+
+#div_five{
+    background-color: #F6B400;
+
+}
