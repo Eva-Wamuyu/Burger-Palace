@@ -5,7 +5,10 @@
     font-family: "poppins",sans-serif;
 }
 #div_One{
-    background-color: white;
+    background-image: url(./images/YellowBackground.jpeg);
+    background-repeat: no-repeat;
+    background-color: white;/*to be used if the image fails to load*/
+
     margin: 50px;
     
     
@@ -25,17 +28,22 @@
 }
 
 .halfOne {
+    padding: 50px;
     
-
-    
-    
+ 
     
 }
+.both{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .halfOne p, button{
     margin: 50px;
 }
 .halfOne2{
-    background-color: #F6B400;
+   
     
 }
 
@@ -49,7 +57,7 @@
 
 
 h1{
-    font-family: "Brush Script MT",cursive;
+    font-family: "lobster",cursive;
 }
 .rain{
     font-size: 2.5em;
@@ -66,6 +74,7 @@ h1{
 
 }
 .navigations li{
+    list-style-type: none;
     display: inline;
     padding: 20px;
     font-weight: bold;
@@ -80,13 +89,12 @@ h1{
 #div_two{
     display: flex;
     flex-direction: row;
-    flex-grow: inherit;
 
 }
 .imageContainer{
     display: inline-grid;
     grid-template-columns: auto auto auto;
-
+    
 }
 
 
@@ -113,9 +121,14 @@ h1{
 }
 
 #div_Three{
-    display: flex;
+    margin: 50px;
+    padding: 50px;
+    
 
     
+}
+#div_Three h2{
+    padding: 20px;
 }
 
 
@@ -124,6 +137,7 @@ h1{
 .ourmenu{
     text-decoration: underline orange 7.5px;
     text-align: center;
+    
 
 }
 #menu{
@@ -135,13 +149,17 @@ h1{
     
     
 }
+.container{
+    margin: 0;
 
+}
 
 .cart{
     background-color:  #E1EBE6;
     border-radius: 12.5px;
     
 }
+
 .three_child{
     border: solid 1px lightgrey;
     border-radius: 25px;
@@ -152,30 +170,30 @@ h1{
     font-weight: bold;
 
 }
-#div_five{
-    display: flex;
-    flex-direction: row;
-}
 
 
 .discover{
     float: left;
+    width: 20%;
 
 }
 .mobile{
+
+    
+    
     
 }
-
 
 
 #div_five{
     background-color: #F6B400;
     font-size: 1.75em;
     
+    
 
 }
 #bottomButton{
-    margin-right: 0;
+    
 }
 #copy{
     text-align: left;
