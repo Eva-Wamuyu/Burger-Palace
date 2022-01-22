@@ -8,10 +8,8 @@
     background-image: url(./images/YellowBackground.jpeg);
     background-repeat: no-repeat;
     background-color: white;/*to be used if the image fails to load*/
-
     margin: 50px;
-    
-    
+
     
     
 }
@@ -23,9 +21,7 @@
     padding: 15px 25px 15px ;
   
 }
-.city{
-    
-}
+
 
 .halfOne {
     padding: 50px;
@@ -84,17 +80,15 @@ h1{
 }
 .navigations{
     margin-left: 100px;
+
     
 }
 
-#div_two{
-    display: flex;
-    flex-direction: row;
 
-}
 .imageContainer{
     display: inline-grid;
     grid-template-columns: auto auto auto;
+   
     
 }
 
@@ -138,7 +132,6 @@ h1{
 
 
 
-
 .ourmenu{
     text-decoration: underline orange 7.5px;
     text-align: center;
@@ -148,12 +141,7 @@ h1{
 #menu{
     color: #F6B400;
 }
-#div_Three{
-
-
     
-    
-}
 .container{
     margin: 0;
 
@@ -166,9 +154,10 @@ h1{
 }
 
 .three_child{
-    border: solid 1px lightgrey;
+    border: 1px lightgrey;
     border-radius: 25px;
     padding: 25px;
+    box-shadow: 1px 1px 1px 1px;
     
 }
 .three_child .ksh,.cart{
@@ -222,9 +211,6 @@ h1{
     font-size: 1.75em;
 
 }
-#bottomButton{
-    
-}
 #copy{
     text-align: left;
 }
@@ -262,10 +248,6 @@ footer{
     text-decoration: underline;
     font-weight: bold;
 }
-
-
-
-
 
 #bottom{
     background-color: white;
