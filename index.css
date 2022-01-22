@@ -6,27 +6,57 @@
 }
 #div_One{
     background-color: white;
+    margin: 50px;
+    
     
     
 }
 .order{
     background-color: orange;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px 10px 0 10px;
     color: white;
+    padding: 15px 25px 15px ;
   
 }
 .city{
-    margin: 0;
     
 }
 
-#div_One h1, ul{
+.halfOne {
+    padding: 50px;
+    
+}
+.halfOne p, button{
+    margin: 50px;
+}
+.halfOne2{
+    background-color: #F6B400;
+}
+
+
+
+#div_One h1, ul, .logos{
     display: inline;
+    
 }
+
 h1{
-    font-family: ;
+    font-family: "Brush Script MT",cursive;
 }
+.rain{
+    font-size: 2.5em;
+    
+}
+.deliver{
+    color:  grey;
+    ;
+}
+
+
+
+
+
 .secondPartOfBurger{
     color: #F6B400;
 
@@ -39,7 +69,8 @@ h1{
    
 }
 .navigations{
-    text-align: center;
+    margin-left: 75px;
+
     
     
     
@@ -59,10 +90,14 @@ h1{
     
     
 }
+.cart{
+    background-color:  #E1EBE6;
+    border-radius: 12.5px;
+    
+}
 .three_child{
     border: solid 1px lightgrey;
     border-radius: 25px;
-
     
 }
 
