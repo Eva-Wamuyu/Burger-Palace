@@ -37,6 +37,7 @@
 
 
 #div_One h1, ul, .logos{
+    
     display: inline;
     
 }
@@ -54,9 +55,6 @@ h1{
 }
 
 
-
-
-
 .secondPartOfBurger{
     color: #F6B400;
 
@@ -69,12 +67,41 @@ h1{
    
 }
 .navigations{
-    margin-left: 75px;
+    margin-left: 100px;
 
     
     
     
 }
+
+.services{
+    border: solid maroon 1px;
+    border-radius: 10px;
+    
+}
+.smallDiv{
+    height:25%;
+    width: 25%;
+
+}
+.bigDiv{
+    height: 35%;
+    width: 25%;
+    
+}
+.burgers{
+    float: left;
+    
+    
+
+}
+.meal{
+    float: right;
+    
+}
+
+
+
 
 
 .ourmenu{
