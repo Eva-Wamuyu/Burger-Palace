@@ -168,7 +168,17 @@ h1{
 .three_child{
     border: solid 1px lightgrey;
     border-radius: 25px;
+    padding: 25px;
     
+}
+.three_child .ksh,.cart{
+    display: inline;
+}
+.three_child .ksh{
+    font-size: 1.25em;
+}
+.three_child .cart{
+    float: right;
 }
 
 .details{
@@ -182,19 +192,22 @@ h1{
     width: 20%;
 
 }
-.mobile{
-
-    
-    
+#div_four h2{
+    font-size: 2.25em;
     
 }
-
+#div_four p{
+    color: grey;
+    font-size: 1.25em;
+}
+#div_four span{
+    color: #F6B400;
+    
+}
 
 #div_five{
     background-color: #F6B400;
     font-size: 1.75em;
-    
-    
 
 }
 #bottomButton{
@@ -217,13 +230,25 @@ footer{
 #sitemap{
     float: left;
     width: 50%;
+    
 }
 #sitemap li{
     list-style-type: none;
     
-}
-#bottomButton{
     
+}
+#sitemap a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navigations a:hover{
+    color: #F6B400;
+}
+#sitemap a:hover{
+    color: #F6B400;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 
