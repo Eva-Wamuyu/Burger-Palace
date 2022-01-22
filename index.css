@@ -68,38 +68,34 @@ h1{
 }
 .navigations{
     margin-left: 100px;
-
-    
-    
     
 }
-
 .services{
     border: solid maroon 1px;
     border-radius: 10px;
-    
-}
-.smallDiv{
-    height:25%;
-    width: 25%;
-
-}
-.bigDiv{
-    height: 35%;
-    width: 25%;
-    
+       
 }
 .burgers{
     float: left;
-    
-    
-
+    width: 25%;
+    height: 75%;
+}
+.delivery{
+    float: left;
+    width: 50%;
+    height: 75%;
 }
 .meal{
     float: right;
-    
+    height: 85%;
+    width: 25%;
 }
 
+#div_Three{
+    display: grid;
+
+    
+}
 
 
 
@@ -113,10 +109,13 @@ h1{
     color: #F6B400;
 }
 #div_Three{
-    display: grid;
+
+
     
     
 }
+
+
 .cart{
     background-color:  #E1EBE6;
     border-radius: 12.5px;
@@ -151,12 +150,39 @@ h1{
 footer{
     background-color:  #E1EBE6;
     
-}
-#bottom{
-    background-color: white;
+    
 }
 
-#icons{
+
+#bottomlogo{
+    float: left;
+    width: 25%;
+}
+#sitemap{
+    float: left;
+    width: 50%;
+}
+#bottomButton{
+    
+
+}
+
+
+
+
+
+#bottom{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-top: 25px;
+    
+}
+#icons{  
     display: inline;
     
+    
+}
+#by{
+    float: right;
 }
