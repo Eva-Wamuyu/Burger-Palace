@@ -42,9 +42,10 @@
 .halfOne p, button{
     margin: 50px;
 }
-.halfOne2{
-   
-    
+.navigations a{
+    color: black;
+    text-decoration: none;
+
 }
 
 
@@ -102,6 +103,7 @@ h1{
     border: solid maroon 1px;
     border-radius: 10px;
     text-align: center;
+    padding: 25px;
     
        
 }
@@ -113,14 +115,16 @@ h1{
 .delivery{
     float: left;
     width: 50%;
-    height: 75%;
+    height: 85%;
 }
 .meal{
     float: right;
-    height: 85%;
+    height: 75%;
     width: 25%;
 }
-
+.two{
+    background-color: #E1EBE6;
+}
 #div_Three{
     margin: 50px;
     padding: 50px;
@@ -216,6 +220,7 @@ footer{
 }
 #sitemap li{
     list-style-type: none;
+    
 }
 #bottomButton{
     
