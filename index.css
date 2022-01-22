@@ -6,9 +6,31 @@
 }
 #div_One{
     
+    
+}
+h1{
+    font-family: ;
+}
+.secondPartOfBurger{
+    color: #F6B400;
+
+}
+.navigations li{
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+    
+   
+}
+.navigations{
+    text-align: center;
+    
+    
+    
 }
 
-h2{
+
+.ourmenu{
     text-decoration: underline orange 7.5px;
     text-align: center;
 
@@ -16,9 +38,19 @@ h2{
 #menu{
     color: #F6B400;
 }
+#div_Three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 
+.details{
+    font-weight: bold;
+    
 
-
+}
 
 
 
@@ -26,4 +58,22 @@ h2{
 #div_five{
     background-color: #F6B400;
 
+}
+#bottomButton{
+    margin-right: 0;
+}
+#copy{
+    text-align: left;
+}
+footer{
+    background-color:  #E1EBE6;
+    
+}
+#bottom{
+    background-color: white;
+}
+
+#icons{
+    display: inline;
+    
 }
