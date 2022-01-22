@@ -10,6 +10,7 @@
     
     
     
+    
 }
 .order{
     background-color: orange;
@@ -24,7 +25,10 @@
 }
 
 .halfOne {
-    padding: 50px;
+    
+
+    
+    
     
 }
 .halfOne p, button{
@@ -32,6 +36,7 @@
 }
 .halfOne2{
     background-color: #F6B400;
+    
 }
 
 
@@ -41,6 +46,7 @@
     display: inline;
     
 }
+
 
 h1{
     font-family: "Brush Script MT",cursive;
@@ -70,9 +76,24 @@ h1{
     margin-left: 100px;
     
 }
+
+#div_two{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+
+}
+.imageContainer{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
 .services{
     border: solid maroon 1px;
     border-radius: 10px;
+    
        
 }
 .burgers{
@@ -92,7 +113,7 @@ h1{
 }
 
 #div_Three{
-    display: grid;
+    display: flex;
 
     
 }
@@ -129,15 +150,27 @@ h1{
 
 .details{
     font-weight: bold;
-    
 
 }
+#div_five{
+    display: flex;
+    flex-direction: row;
+}
 
+
+.discover{
+    float: left;
+
+}
+.mobile{
+    
+}
 
 
 
 #div_five{
     background-color: #F6B400;
+    font-size: 1.75em;
     
 
 }
@@ -162,9 +195,11 @@ footer{
     float: left;
     width: 50%;
 }
+#sitemap li{
+    list-style-type: none;
+}
 #bottomButton{
     
-
 }
 
 
