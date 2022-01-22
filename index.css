@@ -5,8 +5,24 @@
     font-family: "poppins",sans-serif;
 }
 #div_One{
+    background-color: white;
     
     
+}
+.order{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  
+}
+.city{
+    margin: 0;
+    
+}
+
+#div_One h1, ul{
+    display: inline;
 }
 h1{
     font-family: ;
@@ -39,10 +55,14 @@ h1{
     color: #F6B400;
 }
 #div_Three{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     
+    
+}
+.three_child{
+    border: solid 1px lightgrey;
+    border-radius: 25px;
+
     
 }
 
@@ -57,6 +77,7 @@ h1{
 
 #div_five{
     background-color: #F6B400;
+    
 
 }
 #bottomButton{
