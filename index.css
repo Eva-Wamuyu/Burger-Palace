@@ -195,14 +195,26 @@ h1{
 #div_four h2{
     font-size: 2.25em;
     
+    
 }
 #div_four p{
     color: grey;
+    font-weight: bold;
     font-size: 1.25em;
 }
 #div_four span{
     color: #F6B400;
     
+}
+#div_four{
+    background-color: honeydew;
+    display: flex;
+    flex-direction: row;  
+}
+.contentFour{
+    padding: 50px;
+    
+
 }
 
 #div_five{
