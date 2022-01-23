@@ -9,6 +9,7 @@ There is a section where one can subscribe to get newsletters from the company.
 ## Setup/Installation Requirements
 * No installation needed.
 * One requires a web browser and access to the internet to be able to see the page.
+* Web address https://eva-wamuyu.github.io/Burger-Palace/
 * Click on the navigation links (they change color from black to yellow on hover) to access other pages of the website.
 
 
