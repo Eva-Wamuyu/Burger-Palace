@@ -26,5 +26,4 @@ HTML and CSS
 I will appreciate feedback, suggestions and clarifications.
 My email is rutheve.eva@gmail.com. Feel free to send me feedback or concerns and I'll get back to you.
 ### License
-https://github.com/Eva-Wamuyu/Burger-Palace/tree/add-license-1
-Copyright (c) 2022 **Eva Wamuyu**
+This Project comes with MIT License. View it <a href="https://github.com/Eva-Wamuyu/Burger-Palace/blob/master/License">MIT</a> Eva Wamuyu
