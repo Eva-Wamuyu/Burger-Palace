@@ -198,7 +198,8 @@ h1{
 #div_four{
     background-color: honeydew;
     display: flex;
-    flex-direction: row;  
+    flex-wrap: wrap;
+    
 }
 .contentFour{
     padding: 50px;
@@ -209,6 +210,17 @@ h1{
 #div_five{
     background-color: #F6B400;
     font-size: 1.75em;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.discover{
+    flex: 50%;
+    
+
+}
+.mobile{
+    flex: 50%;
 
 }
 #copy{
