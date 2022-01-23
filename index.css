@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: "poppins",sans-serif;
+    
 }
 #div_One{
     background-image: url(./images/YellowBackground.jpeg);
@@ -86,10 +87,17 @@ h1{
 
 
 .imageContainer{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: auto auto auto;
+    grid-gap: 50px;
    
     
+}
+#div_Two{
+    background-color: #E1EBE6;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 100px;
 }
 
 
@@ -97,25 +105,28 @@ h1{
     border: solid maroon 1px;
     border-radius: 10px;
     text-align: center;
-    padding: 25px;
+    padding: 25px;  
     
        
 }
 .burgers{
-    float: left;
-    width: 25%;
-    height: 75%;
+
+
+    height: 85%;  
 }
+
 .delivery{
-    float: left;
-    width: 50%;
-    height: 85%;
+
+    height: 100%;
 }
 .meal{
-    float: right;
-    height: 75%;
-    width: 25%;
+    
+    height: 85%;
+
 }
+
+
+
 .two{
     background-color: #E1EBE6;
 }
@@ -136,16 +147,13 @@ h1{
     text-decoration: underline orange 7.5px;
     text-align: center;
     
+    
 
 }
 #menu{
     color: #F6B400;
 }
     
-.container{
-    margin: 0;
-
-}
 
 .cart{
     background-color:  #E1EBE6;
@@ -272,6 +280,17 @@ footer{
     display: inline;
     
     
+}
+#bottomButton{
+    display: inline;
+    
+
+}
+.button{
+    background-color: #F6B400;
+    color: white;
+    margin-left: 0;
+   
 }
 #by{
     float: right;
