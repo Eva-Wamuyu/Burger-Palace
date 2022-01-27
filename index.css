@@ -4,6 +4,7 @@
     margin: 0;
     font-family: "poppins",sans-serif;
     
+    
 }
 #div_One{
     background-image: url(./images/YellowBackground.jpeg);
@@ -298,3 +299,4 @@ footer{
 #by{
     float: right;
 }
+
