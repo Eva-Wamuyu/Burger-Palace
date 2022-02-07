@@ -9,7 +9,6 @@
 #div_One{
     background-repeat: no-repeat;
     background-position: center;
-    background-color: green;
     height: 100vh;
     width: 100vw;
 
@@ -267,22 +266,74 @@ h1{
     font-size: 1.75em;
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
+    height: 65vh;
+    justify-content: center;
 
 }
 
 .mobile{
-    flex: 50%;
 
+    padding-top: 3.5vh;
+    
+
+}
+.mobile img{
+    margin: 1.25vw;
+}
+.discoverApps{
+    
+    padding-top: 12.5vh;
+  
 }
 #copy{
     text-align: left;
 }
-footer{
+.footer{
     background-color:  #E1EBE6;
-    
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    padding-top: 12.5vh;
     
 }
+.footer div{
+    width: 33vw;
+}
 
+.footer img,h1{
+    display: inline;
+}
+
+#sitemap{
+    
+    padding-left: 6.5vw;
+}
+#bottomButton input[type=text]{
+
+    height: 4.5vh;
+    width: 15vw;
+
+}
+#bottomButton input[type=text], button{
+    display: inline;
+    height: 4.5vh;
+    width: 5vw;
+    margin: 0;
+}
+#bottomButton input[type=text]{
+
+    height: 4.5vh;
+    width: 15vw;
+    
+
+}
+#bottomButton p{
+    margin-bottom: 2.5vh;
+}
+.footer .logos{
+    margin-left: 8.5vw;
+}
 
 #bottomlogo{
     float: left;
@@ -338,4 +389,7 @@ footer{
 #by{
     float: right;
 }
-
+.bottom{
+    width: 100vw;
+    margin: 0;
+}
