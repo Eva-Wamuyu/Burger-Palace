@@ -11,6 +11,7 @@
     background-position: center;
     background-color: green;
     height: 100vh;
+    width: 100vw;
 
     
 }
@@ -107,6 +108,7 @@ h1{
     background-color: #E1EBE6;
     display: flex;
     height: 100vh;
+    width: 100vw;
     padding: 2.5vw;
     
 }
@@ -187,8 +189,8 @@ h1{
     box-shadow: 1px 1px 1px 1px;
     padding: 0.5vh;
     margin: 2.5vh;
-    width: 30vw;
-    height: 50vh;
+    width: 33vw;
+    height: 65vh;
     
 }
 .three_child .ksh,.cart{
@@ -206,12 +208,6 @@ h1{
 
 }
 
-
-.discover{
-    float: left;
-    width: 20%;
-
-}
 #div_four h2{
     font-size: 2.25em;
     
@@ -229,16 +225,41 @@ h1{
 #div_four{
     background-color: honeydew;
     display: flex;
-    height: 100vh;
+    height: 95vh;
+    /* width: 100vw; */
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+
+}
+.discover{
+    width: 40vw;
+    padding-top: 45vh;
+    padding-left: 17.5vw;
+    line-height: 2;
     
+}
+.doubles{
+
+    width: 60vw;
+    padding-left: 10.5vw;
 }
 .contentFour{
     padding: 50px;
     
 
 }
+#notshiny{
+    position: relative;
+    bottom: 37.5vh;
+}
+#shiny{
+    position: relative;
+    top: 16.5vh;
+}
 .doubles img{
-    height: 50%;
+    height: 60%;
+    display: inline;
+    
 }
 
 #div_five{
@@ -248,11 +269,7 @@ h1{
     flex-wrap: wrap;
 
 }
-.discover{
-    flex: 50%;
-    
 
-}
 .mobile{
     flex: 50%;
 
